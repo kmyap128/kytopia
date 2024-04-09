@@ -7,7 +7,6 @@ html {
 #wrapper {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 3fr 5fr 5fr 3fr 2fr 0.5fr;
     grid-template-areas: 
     "header"
     "intro"
@@ -23,7 +22,6 @@ html {
     #wrapper {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 1fr 2fr 3fr 3fr 3fr 2fr 0.5fr;
         grid-template-areas: 
         "header"
         "intro"
@@ -46,7 +44,6 @@ html {
 @media screen and (min-width: 1200px ){
     #wrapper {
         grid-template-columns: 50% 50%;
-        grid-template-rows: 1fr 3.5fr 3fr 3fr 4fr 1fr;
         grid-template-areas: 
         "header         header"
         "intro          intro"
@@ -135,6 +132,7 @@ html {
 
 #intro .color-box #bio {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #intro .color-box #bio #text {
