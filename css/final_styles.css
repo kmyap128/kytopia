@@ -174,6 +174,7 @@ html {
 .project img {
     width: 300px;
     height: 300px;
+    object-fit: cover;
 }
 
 #projects .box {
@@ -192,7 +193,7 @@ html {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 0;
-    margin-top: -300px;
+    margin-top: -275px;
     text-align: center;
     visibility: hidden;
 }
@@ -202,7 +203,7 @@ html {
 }
 
 #projects .box .project:hover a img{
-    opacity: 10%;
+    opacity: 7%;
 }
 
 #projects .box .project:hover .description{
