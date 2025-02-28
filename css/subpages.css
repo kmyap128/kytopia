@@ -43,6 +43,38 @@
     display: block;
 }
 
+#content {
+    margin: 50px;
+}
+
+#content p {
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+#content img {
+    width: 50%;
+}
+
+#links {
+    margin: 50px;
+    margin-left: -10px;
+}
+
+#links a {
+    color: white;
+    background-color: #5e7575;
+    padding: 10px 50px;
+    transition: transform 0.1s ease-in;
+    text-decoration: none;
+    margin: 10px;
+    width: 150px;
+}
+
+#links a:hover {
+    transform: scale(1.2);  
+}
+
 .art {
     display: block;
     margin: 50px auto;
