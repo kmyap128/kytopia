@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Hind:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#header {
+    margin-top: 10px;
+    grid-area: header;
+    text-indent: 50px;
+}
+
+#header #nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#header #nav a {
+    font-size: 1rem;
+    text-decoration: none;
+    transition: transform 0.1s ease-in;
+    text-align: center;
+}
+
+#header #nav a:hover {
+    transform: scale(1.2);
+}
+
+#header .color-box {
+    margin-top: -10px;
+    background-color: #bbeae0;
+    width: 80%;
+    height: 35px;
+}
+
+#header #logo {
+    display: none;
+}
+
+#header #nav {
+    width: 80%;
+}
+
+#header #logo {
+    float: right;
+    margin-right: 50px;
+    display: block;
+}
+
+.art {
+    display: block;
+    margin: 50px auto;
+    width: 50%;
+}
+
+h2, h3, h4, a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, p, a {
+    color: #5e7575;
+}

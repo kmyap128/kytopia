@@ -73,7 +73,6 @@ html {
     }
 }
 
-
 #header {
     margin-top: 10px;
     grid-area: header;
@@ -150,6 +149,7 @@ html {
     grid-area: projects;
     text-align: center;
     font-size: 1.5rem;
+    margin: 45px;
 }
 
 #projects .color-box {
@@ -165,6 +165,8 @@ html {
     height: 300px;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 45px;
+
     box-shadow: 10px 10px silver;
     transition: transform 0.1s ease-in;
 }
@@ -212,6 +214,7 @@ html {
     grid-area: art;
     text-align: center;
     font-size: 1.5rem;
+    margin: 45px;   
 }
 
 #art .color-box {
@@ -227,6 +230,7 @@ html {
     height: 300px;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 45px;
     box-shadow: 10px 10px silver;
     transition: transform 0.1s ease-in;
 }
