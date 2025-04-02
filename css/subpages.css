@@ -43,6 +43,25 @@
     display: block;
 }
 
+#arrowhead-content {
+    margin: 50px;
+}
+
+#arrowhead-content img {
+    width: 75%;
+    border:25px solid #bfbfbf;
+}
+
+.group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.page {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
 #content {
     margin: 50px;
 }
